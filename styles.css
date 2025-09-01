@@ -9,7 +9,7 @@ body{
 }
 
 .section1{
-    background: url(../assets/Fondo.png);
+    background: url(assets/Fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,49 +138,49 @@ header samp{
 }
 
 .img1{
-    background: url(../assets/photo01.png);
+    background: url(assets/photo01.png);
     background-size: cover;
     background-position: center;
 }
 
 .img2{
-    background: url(../assets/photo02.png);
+    background: url(assets/photo02.png);
     background-size: cover;
     background-position: center;
 }
 
 .img3{
-    background: url(../assets/photo03.png);
+    background: url(assets/photo03.png);
     background-size: cover;
     background-position: center;
 }
 
 .img4{
-    background: url(../assets/photo04.png);
+    background: url(assets/photo04.png);
     background-size: cover;
     background-position: center;
 }
 
 .img5{
-    background: url(../assets/photo05.png);
+    background: url(assets/photo05.png);
     background-size: cover;
     background-position: center;
 }
 
 .img6{
-    background: url(../assets/photo06.png);
+    background: url(assets/photo06.png);
     background-size: cover;
     background-position: center;
 }
 
 .img7{
-    background: url(../assets/photo07.png);
+    background: url(assets/photo07.png);
     background-size: cover;
     background-position: center;
 }
 
 .img8{
-    background: url(../assets/photo08.png);
+    background: url(assets/photo08.png);
     background-size: cover;
     background-position: center;
 }
@@ -225,7 +225,7 @@ header samp{
 }
 
 .imgvideo{
-    background: url(../assets/VimeoVideo.png);
+    background: url(assets/VimeoVideo.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -264,7 +264,7 @@ header samp{
 }
 
 .section6{
-    background:url(../assets/bg_whoIs.png);
+    background:url(assets/bg_whoIs.png);
     background-position: center;
     background-size: cover;
     color: white;
@@ -342,7 +342,7 @@ header samp{
 }
 
 .section8{
-    background: url(../assets/bg_contact.png);
+    background: url(assets/bg_contact.png);
     color: white;
     padding: 5% 15%;
     background-size: cover;
