@@ -1,0 +1,993 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: notosans, sans-serif;
+}
+
+.section1{
+    background: url(../assets/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    zoom: 0.9;
+}
+
+.section1 h2{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 17%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+header a:hover{
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+    padding: 10px 20px;
+}
+
+header samp{
+    color: #4BCAFF;
+    font-size: 36px;
+}
+
+.homee{
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+    padding: 10px 20px;
+}
+
+.section2{
+    background-color: #4BCAFF;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 8% 15% 5% 15%;
+}
+
+.section2 h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.section2 p{
+    font-size: 14px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 15% 0px 15%;
+}
+
+.services h4{
+    font-size: 30px;
+    color: #69747B;
+}
+
+.section3 a{
+    color: #69747B;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.linea{
+    background-color:#69747B;
+    height: 2px;
+    width: 50%;
+}
+
+.section3 a:hover{
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+    padding: 10px 20px;
+}
+
+.section3 .al{
+    color: #00b3ff;
+    border: 2px solid #4BCAFF;
+    padding: 10px 20px;
+}
+
+.collague{
+    padding: 4% 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 30px;
+}
+
+.img1{
+    background: url(../assets/photo01.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    background: url(../assets/photo02.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background: url(../assets/photo03.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    background: url(../assets/photo04.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5{
+    background: url(../assets/photo05.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6{
+    background: url(../assets/photo06.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img7{
+    background: url(../assets/photo07.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img8{
+    background: url(../assets/photo08.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 300px);
+    gap: 20%;
+    padding: 5% 15%;
+    background-color: #515F67;
+    color: white;
+}
+
+.tood h4{
+    font-size: 30px;
+}
+
+.linea1{
+    background-color: #ffffff;
+    height: 2px;
+    width: 12%;
+    margin-bottom: 20px;
+}
+
+.tood p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tood button{
+    background-color: #515F67;
+    color: #353F46;
+    border: 2px solid #353F46;
+    padding: 10px 25px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+.p1{
+    margin-bottom: 15px;
+}
+
+.imgvideo{
+    background: url(../assets/VimeoVideo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section5{
+    background-color: #4BCAFF;
+    color: white;
+    padding: 4% 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social h4{
+    font-size: 30px;
+}
+
+.linea2{
+    background-color: #ffffff;
+    height: 2px;
+    width: 50%;
+}
+
+.social img{
+    width: 3%
+}
+
+.section5 p{
+    font-size: 25px;
+    line-height: 39px;
+}
+
+.section6{
+    background:url(../assets/bg_whoIs.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5% 15% 10% 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+
+.section6 h4{
+    font-size: 30px;
+}
+
+.linea3{
+    background-color: #ffffff;
+    height: 2px;
+    width: 8%;
+    margin-bottom: 25px;
+}
+
+.p2{
+    margin-bottom: 20px;
+}
+
+.section6 p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.p3{
+    margin-top: 57px;
+    margin-bottom: 23px;
+}
+
+.section6 img{
+    margin-right: 15px;
+}
+
+.section7{
+    padding: 3% 15%;
+}
+
+.section7 h4{
+    font-size: 30px;
+    color: #515F67;
+}
+
+.linea4{
+    background-color: #515F67;
+    height: 2px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.section7 img{
+    width: 10%;
+}
+
+.p4{
+    color: #000000;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.p5{
+    color: #00b3ff;
+    font-size: 15px;
+}
+
+.testim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section8{
+    background: url(../assets/bg_contact.png);
+    color: white;
+    padding: 5% 15%;
+    background-size: cover;
+}
+
+.section8 p{
+    font-size: 15px;
+    line-height: 16px;
+}
+
+label{
+    color: white;
+    font-size: 12px;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 80%;
+    padding: 10px 0px;
+}
+
+textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.section8 h4{
+    font-size: 30px;
+}
+
+.linea5{
+    background-color: #ffffff;
+    height: 2px;
+    width: 4%;
+    margin-bottom: 25px;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    gap: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.con1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+} 
+
+.con2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.con3{
+    grid-column: 2 / 3;
+} 
+
+.con3 p{
+    margin-top: 10px;
+}
+
+.section8 button{
+    background-color: rgb(75, 202, 255);
+    color: white;
+    border: 0px;
+    padding: 15px 20px;
+    font-size: 12px;
+    width: 30%;
+    margin-top: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 63, 71);
+    color: gray;
+    padding: 3% 15%;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+.footfina{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footfina h5{
+    margin: 0px 10px;
+    font-size: 10px;
+}
+
+.footfina span{
+    padding-left: 10px;
+}
+
+@media (max-width:1279px){ 
+
+    header a{
+        font-size: 11px;
+        margin: 0 7px;
+    }
+
+    .section1 h2{
+        font-size: 25px;
+    }
+
+    .section2 p {
+        font-size: 9px;
+    }
+
+    .section2 h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .section3 a{
+        font-size: 11px;
+        margin: 0 7px;
+    }
+
+    .servicios h4{
+        font-size: 22px;
+    }
+
+    .collague{
+        grid-template-rows: repeat(2, 150px);
+        gap: 15px;
+    }
+
+    .tood p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .tood h4 {
+        font-size: 22px;
+    }
+
+    .tood button{
+        font-size: 10px;
+        padding: 6px 12px;
+        margin-top: 10px;
+    }
+
+    .section4{
+        grid-template-rows: repeat(1, 230px);
+        gap: 5%;
+    }
+
+    .imgvideo{
+        margin-top: 10%;
+    }
+
+    .social h4 {
+        font-size: 22px;
+    }
+
+    .section5 p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .social img {
+        width: 5%;
+    }
+
+    .section6 h4{
+        font-size: 22px;
+    }
+
+    .section6 p {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .section6 img {
+        margin-right: 10px;
+        width: 16%;
+    }
+
+    .section7 h4{
+        font-size: 22px;
+    }
+
+    .p4{
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+
+    .p5{
+        font-size: 13px;
+    }
+
+    .section7 img {
+        width: 10%;
+    }
+
+    .section8 h4 {
+        font-size: 22px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .section8 p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .section8 button{
+        padding: 13px 18px;
+        font-size: 12px;
+        width: 28%;
+        margin-top: 18px;
+        font-size: 10px;
+    }
+
+    .footfina h5 {
+        margin: 0px 9px;
+        font-size: 8px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:920px){
+
+    .section1{
+        height: 60vh;
+    }
+
+    .section1 h2 {
+        font-size: 20px;
+    }
+
+    header{
+        padding: 3% 15%;
+    }
+
+    header a {
+        font-size: 8px;
+        margin: 0 6px;
+    }
+
+    .hom{
+        padding: 8px 15px;
+    }
+
+    header h1{
+        font-size: 22px;
+    }
+
+    header samp{
+        font-size: 28px;
+    }
+
+    .section2{
+        gap: 20px;
+    }
+
+    .section2 h3 {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .section2 p {
+        font-size: 7px;
+    }
+
+    .section3 a {
+        font-size: 8px;
+        margin: 0 6px;
+    }
+
+    .section3 .al{
+        padding: 8px 15px;
+    }
+
+    .servicios h4 {
+        font-size: 20px;
+    }
+
+    .collague {
+        grid-template-rows: repeat(2, 120px);
+        gap: 12px;
+    }
+
+    .tood h4{
+        margin-bottom: auto;
+        font-size: 20px;
+    }
+
+    .tood p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .social h4 {
+        font-size: 20px;
+    }
+
+    .section5 p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .section6 p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .section6 h4 {
+        font-size: 20px;
+    }
+
+    .section7 h4 {
+        font-size: 20px;
+    }
+
+    .p4 {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .p5 {
+        font-size: 11px;
+    }
+
+    .section8 h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px){
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header samp {
+        font-size: 22px;
+    }
+
+    header a {
+        font-size: 7px;
+        margin: 0px 2px;
+    }
+
+    .section1 h2 {
+        font-size: 13px;
+    }
+
+    .section1 {
+        height: 45vh;
+    }
+
+    .section3 a {
+        font-size: 7px;
+        margin: 0 2px;
+    }
+
+    .servicios h4 {
+        font-size: 15px;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 p {
+        font-size: 10px;
+    }
+
+    .collague {
+        grid-template-rows: repeat(2, 80px);
+        gap: 10px;
+    }
+
+    .tood h4 {
+        margin-bottom: auto;
+        font-size: 15px;
+    }
+
+    .linea1{
+        margin-bottom: 10px;
+    }
+
+    .tood button {
+        font-size: 8px;
+        padding: 5px 10px;
+        margin-top: 7px;
+    }
+
+    .imgvideo {
+        margin-top: 40%;
+    }
+
+    .social h4 {
+        font-size: 15px;
+    }
+
+    .section5 p {
+        font-size: 8px;
+        line-height: 18px;
+    }
+
+    .section6 h4 {
+        font-size: 15px;
+    }
+
+    .p3{
+        margin-bottom: 43px;
+    }
+
+    .section6 img {
+        margin-right: 2px;
+        width: 21%;
+    }
+
+    .section7 h4 {
+        font-size: 15px;
+    }
+
+    .p4 {
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+
+    .p5 {
+        font-size: 8px;
+    }
+
+    .section8 h4 {
+        font-size: 15px;
+    }
+
+    input{
+        padding: 5px 0px;
+    }
+
+    .section8 p {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .principal{
+        margin: auto;
+    }
+
+    textarea{
+        padding: 15px 0px;
+    }
+
+    .section8 button {
+        padding: 8px 15px;
+        margin-top: 10px;
+    }
+
+    .footfina h5 {
+        margin: 0px 2px;
+        font-size: 6px;
+    }
+
+    footer{
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:480px){
+
+    header {
+        padding: 3% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 7px;
+        margin: 0px 4px;
+    }
+
+    .hom {
+        padding: 6px 12px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header samp {
+        font-size: 20px;
+    }
+
+    .section1 h2 {
+        font-size: 11px;
+    }
+
+    .section1 {
+        height: 50vh;
+    }
+
+    .servicios{
+        flex-direction: column;
+    }
+
+    .servicios h4{
+        font-size: 20px;
+    }
+
+    .linea{
+        margin-bottom: 10px;
+    }
+
+    .section3 .al {
+        padding: 5px 12px;
+    }
+
+    .section3 a{
+        margin: 0 4px;
+    }
+
+    .collague {
+        grid-template-rows: repeat(8, 226px);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 6px;
+    }
+
+    .imgvideo {
+        margin-top: 0%;
+    }
+
+    .section4 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        gap: 8%;
+        padding: 10% 15% 2% 15%;
+    }
+
+    .tood h4 {
+        font-size: 20px;
+    }
+
+    .tood p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .social h4 {
+        font-size: 20px;
+    }
+
+    .social img {
+        width: 10%;
+        height: 2vh;
+    }
+
+    .section5 p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .section6{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 26px;
+    }
+
+    .p3 {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .section6 h4 {
+        font-size: 20px;
+    }
+
+    .section6 p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .section7 h4 {
+        font-size: 20px;
+    }
+
+    .section7 img {
+        width: 20%;
+    }
+
+    .p4{
+        font-size: 10px;
+    }
+
+    .section8 h4 {
+        font-size: 20px;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+
+    .linea5{
+        width: 12%;
+        margin-bottom: 15px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .section8 button {
+        padding: 6px 13px;
+        margin-top: 8px;
+        width: 33%;
+    }
+
+    .footfina h5 {
+        margin: 4px 5px;
+        font-size: 8px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
